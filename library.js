@@ -184,6 +184,7 @@
 
 	Oidc.topicRead =   function(paramas, callback) {
 		if (paramas) {
+		  console.log(JSON.stringify({paramas}));
 		  writeFile('SB:Topic read');
 		  console.log('SB:Topic read ');
 		}
@@ -192,6 +193,7 @@
 
 	Oidc.categoryRead =  function(paramas, callback) {
 		if (paramas) {
+		  console.log(JSON.stringify({paramas}));
 		  writeFile('SB:Category read ');
 		  console.log('SB:Category read');
 		}
